@@ -1,5 +1,4 @@
-# CS50 Final - To Do List
-#### Video Demo: https://youtu.be/JncNNV6_HtM
+# To Do List
 
 ## Functionality
 This To Do List is a take on a classic: a numbered list of items you're "supposed" to finish but put off until you suddenly remember it exists again.
