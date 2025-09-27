@@ -2,7 +2,7 @@
 
 ## Functionality
 This To Do List is a take on a classic: a numbered list of items you're "supposed" to finish but put off until you suddenly remember it exists again.
-This program utilizes Java and it's Swing components to create a dynamic To Do List. The To Do List allows you to create a (theoretically) infinite list of items.
+This program utilizes Java and it's Swing components to create a dynamically sized To Do List. The To Do List allows you to create a (theoretically) infinite list of items.
 You can then edit the state of the item (done/not done) or delete it.
 
 The To Do List also automatically resizes the frame based on how many tasks are created. The default size of tasks are set to 10. If the user decides to add more tasks, the frame extends so there is room for the next task box.
