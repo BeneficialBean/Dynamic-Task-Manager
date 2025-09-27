@@ -1,5 +1,5 @@
 # To Do List
-### BeneficialBean | evany227@gmail.com
+##### BeneficialBean | evany227@gmail.com
 
 ## Functionality
 This To Do List is a take on a classic: a numbered list of items you're "supposed" to finish but put off until you suddenly remember it exists again.
