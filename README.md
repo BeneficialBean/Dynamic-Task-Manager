@@ -2,10 +2,10 @@
 
 ## Functionality
 This Dynamic Task Manager is a take on a classic: a numbered list of items you're "supposed" to finish but put off until you suddenly remember it exists again.
-This program utilizes Java and it's Swing components to create a dynamically sized task manager. The Task Manager allows you to create a (theoretically) infinite list of items.
+This program utilizes Java and it's Swing components to create a dynamically sized task manager. The task manager allows you to create a (theoretically) infinite list of items.
 You can then edit the state of the item (done/not done) or delete it.
 
-The Task Manager also automatically resizes the frame based on how many tasks are created. The default size of tasks are set to 10. If the user decides to add more tasks, the frame extends so there is room for the next task box.
+The task manager also automatically resizes the frame based on how many tasks are created. The default size of tasks are set to 10. If the user decides to add more tasks, the frame extends so there is room for the next task box.
 
 
 
