@@ -1,11 +1,11 @@
-# To Do List
+# Dynamic Task Manager
 
 ## Functionality
-This To Do List is a take on a classic: a numbered list of items you're "supposed" to finish but put off until you suddenly remember it exists again.
-This program utilizes Java and it's Swing components to create a dynamically sized To Do List. The To Do List allows you to create a (theoretically) infinite list of items.
+This Dynamic Task Manager is a take on a classic: a numbered list of items you're "supposed" to finish but put off until you suddenly remember it exists again.
+This program utilizes Java and it's Swing components to create a dynamically sized task manager. The Task Manager allows you to create a (theoretically) infinite list of items.
 You can then edit the state of the item (done/not done) or delete it.
 
-The To Do List also automatically resizes the frame based on how many tasks are created. The default size of tasks are set to 10. If the user decides to add more tasks, the frame extends so there is room for the next task box.
+The Task Manager also automatically resizes the frame based on how many tasks are created. The default size of tasks are set to 10. If the user decides to add more tasks, the frame extends so there is room for the next task box.
 
 
 
@@ -36,7 +36,7 @@ list = new TaskList();//A TaskList object holding all the TaskField objects adde
 
 JFrame f; //the frame that every componenet will sit ontop of
 ```
-The program then creates a JButton called "addButton", which adds a task to the To Do List. When the JButton is pressed, a **TaskField** object *Task* is created, which represents the current task that will be implemented. *task* is then added to the **TaskList** *list*. It checks the length of *list* to see if the frame needs to be resized by adding a certain number of pixels if the length of *list* is greater than 10. It then calls the sortComplete() function on *list*, which takes all the completed tasks and moves them to the bottom. Once *list* is sorted, it calls getRawList() on *list*, which returns the raw ArrayList contained in **TaskList**. It adds each **TaskField** from *list* and adds it to the frame *f*. It then revalidates and repaints the frame.
+The program then creates a JButton called "addButton", which adds a task to the task manager. When the JButton is pressed, a **TaskField** object *Task* is created, which represents the current task that will be implemented. *task* is then added to the **TaskList** *list*. It checks the length of *list* to see if the frame needs to be resized by adding a certain number of pixels if the length of *list* is greater than 10. It then calls the sortComplete() function on *list*, which takes all the completed tasks and moves them to the bottom. Once *list* is sorted, it calls getRawList() on *list*, which returns the raw ArrayList contained in **TaskList**. It adds each **TaskField** from *list* and adds it to the frame *f*. It then revalidates and repaints the frame.
 
 The GUI Class also initializes each button that each **TaskField** *task* has. First, is the "Complete" button.
 
@@ -132,7 +132,7 @@ This returns the *indexNumber* object
 This returns the boolean value of *done*
 
 ## Design changes
-I originally had a different view of how the project would go. I envisioned a bullet point list that would also dynamically change based on what tasks were finished or not. But, I decided that using a frame for each task would look cooler for the project. I also debated whether or not to add a date system to set a due date for each task. Finally, I had to choose the right words for the "Del", "Undo", and "Done" buttons, as using "Remove", "Set Undone", and "Complete" would be more fitting for a to do list, it would clutter the UI more. 
+I originally had a different view of how the project would go. I envisioned a bullet point list that would also dynamically change based on what tasks were finished or not. But, I decided that using a frame for each task would look cooler for the project. I also debated whether or not to add a date system to set a due date for each task. Finally, I had to choose the right words for the "Del", "Undo", and "Done" buttons, as using "Remove", "Set Undone", and "Complete" would be more fitting for a task manager, it would clutter the UI more. 
 
 
 
